@@ -35,13 +35,7 @@ Modeling: \
 Post-Modeling: \
 • Metrics: AIC, MAE, MAPE, and RMSE in train/test. \
 • Verify significance of coefficients. \
-• Check residuals (Correlogram, Ljung-box Test) \
-
-
-
-
-
-
+• Check residuals (Correlogram, Ljung-box Test)
 
 
 
