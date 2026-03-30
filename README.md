@@ -11,3 +11,37 @@ A forecast for gasoline prices would help several industries in their price sett
 • Monthly U.S. [Gasoline Prices](https://www.eia.gov/opendata/browser/petroleum/pri/gnd)
 • Granularity: monthly. Available since August 1990
 
+## Exogenous variables ##
+[Gasoline stock] levels(https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WGTSTUS1&f=W)
+• Granularity: weekly. Available since Jan 1, 2010
+[US field production of crude oil] (https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MCRFPUS1&f=M)
+• Granularity: monthly. Available since Jan 1, 2000
+[Inflation without food and energy prices](https://fred.stlouisfed.org/series/CORESTICKM159SFRBATL)
+• Granularity: monthly or yearly. Available since 2000
+[Crude oil imports](https://www.eia.gov/opendata/browser/petroleum/stoc/wstk)
+• Granularity: monthly. Available since August 1982
+• Serves as a proxy of gasoline supply; use destination=US
+Traffic volume trends[https://www.fhwa.dot.gov/policyinformation/travel_monitoring/tvt.cfm]
+• Granularity: monthly. Available from 1992 to 2025
+
+## Methodology ##
+Pre-modeling:
+• EDA
+• Train period: 16 years / 26 years
+• Test period: 12 months (2025)
+Modeling:
+• Three experiments
+• Types of models: SARIMA, SARIMAX,Transfer Function, TBATS, and BSTS.
+Post-Modeling:
+• Metrics: AIC, MAE, MAPE, and RMSE in train/test.
+• Verify significance of coefficients.
+• Check residuals (Correlogram, Ljung-box Test)
+
+
+
+
+
+
+
+
+
