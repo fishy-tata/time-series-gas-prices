@@ -8,7 +8,7 @@ Gasoline is an important part of the expenditures of certain industries like tra
 A forecast for gasoline prices would help several industries in their price setting process and consumers in their budgeting. For instance, transportation companies could set more competitive rates while maintaining their margins, downstream oil and gas companies could improve their revenue forecast, and consumers would benefit from a better prediction of their expenses. 
 
 ## Main data: Retail gasoline prices ## 
-• Monthly U.S. [Gasoline Prices](https://www.eia.gov/opendata/browser/petroleum/pri/gnd)
+• Monthly U.S. [Gasoline Prices](https://www.eia.gov/opendata/browser/petroleum/pri/gnd) \
 • Granularity: monthly. Available since August 1990
 
 ## Exogenous variables ##
