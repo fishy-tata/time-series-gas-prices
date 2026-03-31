@@ -37,5 +37,5 @@ Post-Modeling: \
 • Verify significance of coefficients. \
 • Check residuals (Correlogram, Ljung-box Test)
 
-
+If you want to make a deep dive into the main takeaways, feel free to explore the presentation folder with the main insights and if you desire to explore the technical results enter the notebooks folder.
 
